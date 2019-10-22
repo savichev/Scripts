@@ -2,7 +2,7 @@
 # dpkg-depcheck -d ./configure
 
 cd /usr/src
-#git clone git://git.freedesktop.org/git/virglrenderer
+#git clone https://gitlab.freedesktop.org/virgl/virglrenderer
 cd virglrenderer
 git pull
 #autoreconf -vfi
@@ -12,7 +12,7 @@ git pull
 
 ####
 pkgname=virglrenderer-dev
-pkgversion=0.5.0
+pkgversion=0.8.0
 pkgarch=amd64
 pkgrelease=0
 pakdir=../deb
